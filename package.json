@@ -2,8 +2,8 @@
   "name": "merge-stream-lines",
   "version": "0.1.5",
   "description": "Merge every line from each stream",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --exec ts-node src",
