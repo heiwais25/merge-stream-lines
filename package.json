@@ -2,13 +2,14 @@
   "name": "merge-stream-lines",
   "version": "0.1.0",
   "description": "Merge every line from each stream",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --exec ts-node src",
     "test": "nyc mocha",
     "lint": "eslint --fix src/**",
-    "format": "prettier --write src"
+    "format": "prettier --write src",
+    "prepublish": "yarn build"
   },
   "keywords": [
     "stream",
