@@ -15,7 +15,7 @@
     "stream",
     "merge"
   ],
-  "author": "",
+  "author": "JongHyun <heiwais25@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
@@ -50,5 +50,9 @@
   },
   "dependencies": {
     "split2": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heiwais25/merge-stream-lines.git"
   }
 }
