@@ -10,7 +10,10 @@
     "lint": "eslint --fix src/**",
     "format": "prettier --write src"
   },
-  "keywords": [],
+  "keywords": [
+    "stream",
+    "merge"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
